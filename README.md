@@ -16,6 +16,7 @@ exists so that name resolves to something useful instead of a 404.
 | --- | --- |
 | [`opa-authzen-plugin`](https://github.com/kanywst/opa-authzen-plugin) | **OPA-AuthZEN.** An extended OPA that serves the AuthZEN endpoints natively, as an OPA plugin. Start here. |
 | [`opa-authzen-interop`](https://github.com/kanywst/opa-authzen-interop) | The AuthZEN interop Todo-scenario PDP built on the plugin, used as its E2E harness. |
+| [`mcp-opa-authz`](https://github.com/kanywst/mcp-opa-authz) | The client side. An MCP server that lets an LLM agent ask a real AuthZEN PDP — or evaluate Rego in-process — instead of guessing. |
 
 ## Why the name is `-plugin`
 
